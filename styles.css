@@ -1,0 +1,300 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  margin-left: 970px;
+  display: flex;
+}
+.navigation li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navigation a {
+  text-decoration: none;
+}
+
+.nav-text ul {
+  padding: 0;
+}
+
+.nav-text li {
+  margin: 0 12px;
+}
+
+.nav-image1 img {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 15px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.nav-image2 img {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 6px;
+  border-radius: 50%;
+  width: 33px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.logo {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.logo img {
+  width: 450px;
+  height: auto;
+  cursor: pointer;
+}
+
+.search-bar input {
+  margin-top: -40px;
+  margin-left: 370px;
+  border: solid 1px gainsboro;
+  border-radius: 1rem;
+  width: 500px;
+  height: 35px;
+  position: relative;
+}
+
+.search-icon img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: -490px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+
+.voice-icon img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: -25px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  border: none;
+  background-color: rgb(228, 226, 226);
+  padding: 8px;
+  margin: 0 5px;
+  border-radius: 3%;
+  cursor: pointer;
+}
+
+.languages-section {
+  display: flex;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.languages {
+  margin-left: -40px;
+}
+
+.languages a {
+  text-decoration: none;
+}
+
+.languages li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.languages ul {
+  margin-top: 1px;
+}
+
+footer {
+  background-color: gainsboro;
+  margin-top: 105px;
+  height: 85px;
+  width: 1280px;
+}
+
+footer p {
+  padding: 5px 0;
+  margin-left: 25px;
+}
+
+.footer-bottom {
+  display: flex;
+  padding: 5px 0;
+}
+
+.footer-bottom1 {
+  margin-left: 18px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.footer-bottom2 {
+  margin-left: 150px;
+  margin-right: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-bottom1 li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-bottom2 li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+}
+
+.footer-bottom span {
+  margin-left: 100px;
+}
+
+.footer-bottom img {
+  width: 15px;
+  height: 15px;
+  margin-top: 2px;
+}
+/*media queries max screen width of 800px*/
+@media only screen and (max-width: 800px) {
+  .navigation {
+    margin-left: 300px;
+    display: flex;
+  }
+
+  .search-bar input {
+    margin-top: -40px;
+    margin-left: 200px;
+    border: solid 1px gainsboro;
+    border-radius: 1rem;
+    width: 500px;
+    height: 35px;
+    position: relative;
+  }
+
+  .search-icon img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -490px;
+    margin-top: -30px;
+    cursor: pointer;
+  }
+
+  .voice-icon img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -25px;
+    margin-top: -30px;
+    cursor: pointer;
+  }
+}
+
+/*media queries max screen width of 480px*/
+@media only screen and (max-width: 480px) {
+  .navigation {
+    margin-left: 100px;
+    display: flex;
+  }
+
+  footer {
+    width: 380px;
+    height: 150px;
+  }
+
+  .footer-bottom {
+    display: block;
+    padding: 5px 0;
+  }
+
+  .footer-bottom1 {
+    text-align: center;
+  }
+
+  .footer-bottom span {
+    margin-left: 80px;
+  }
+
+  .footer-bottom2 {
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .search-bar input {
+    margin-top: -35px;
+    margin-left: 30px;
+    border: solid 1px gainsboro;
+    border-radius: 1rem;
+    width: 300px;
+    height: 35px;
+    position: relative;
+  }
+
+  .search-icon img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -490px;
+    margin-top: -30px;
+    cursor: pointer;
+  }
+
+  .voice-icon img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -25px;
+    margin-top: -30px;
+    cursor: pointer;
+  }
+
+  .languages-section {
+    display: block;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+
+  .languages-section span {
+    margin-left: 130px;
+  }
+
+  .logo {
+    margin-left: -150px;
+    margin-top: -30px;
+  }
+
+  .logo img {
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+  }
+  .buttons {
+    margin-left: -110px;
+    margin-top: 20px;
+  }
+}
